@@ -285,6 +285,10 @@ a,a:hover {
   margin: .5em;
   width: 29em;
 }
+/* .myaddforminputdetailauthors{
+  height: 29em;
+  overflow: scroll;
+} */
 
 .myaddformbuttons{
   width: 5em;

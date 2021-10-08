@@ -14,6 +14,7 @@
 		<link href="css/styles.css" rel="stylesheet">
 
 
+    <!-- <script defer src="/public/js/addbooks.js"></script> -->
     <script defer src="js/addbooks.js"></script>
 	</head>
 	<body>
@@ -96,11 +97,11 @@
          
 
           <div class="row">    
-            <form action="" method="get" class="myaddform" onsubmit="validate()">
-                Title: <input type="text" name="title" id="titlebook" class="myaddforminput" required> <br>
-                Author: <input type="text" name="author" id="authorbook" class="myaddforminput" required> <br>
-                genre: <input type="text" name="genre" id="genrebook" class="myaddforminput" required> <br>
-                Image: <input type="file" name="image" id="imagebook" accept="image/*"> <br>
+            <form action="" method="get" class="myaddform" id="myaddform" onsubmit="return validate()">
+                Title: <input type="text" name="title" class="myaddforminput" id="titlebook" required> <br>
+                Author: <input type="text" name="author" class="myaddforminput" id="authorbook" required> <br>
+                genre: <input type="text" name="genre" class="myaddforminput" id="genrebook" required> <br>
+                Image: <input type="file" name="image" id="imagebook" required accept="image/*"> <br>
                 <button type="submit" class="myaddformbuttons">Add books</button> <br>
             </form>
           </div>
