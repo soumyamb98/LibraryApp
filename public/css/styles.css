@@ -40,9 +40,9 @@ footer {
 
 #masthead .well {
   margin-top:31px;
-  background: transparent;
-  /* background-color:#111166; */
-  /* border-color:#000022; */
+  /* background: transparent; */
+  background-color:#09ce55;
+  border-color:#09ce55;
   /* color:#efefff; */
   min-height:127px;
 }
@@ -291,6 +291,8 @@ a,a:hover {
 } */
 
 .myaddformbuttons{
-  width: 5em;
+  width: 14em;
   margin: .5em;
+  background-color: #abca39;
+  color: #000;
 }
